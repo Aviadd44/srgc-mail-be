@@ -6,7 +6,15 @@ public class Student {
 	private String address;
 	private String username;
 	private String emailId;
+	private int id;
 	
+	
+	public int getId() {
+		return id;
+	}
+	public void setId(int id) {
+		this.id = id;
+	}
 	public String getFirstName() {
 		return firstName;
 	}
